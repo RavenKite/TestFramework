@@ -10,4 +10,32 @@
 
 @implementation TFObject
 
++ (void)logImageInfoInAssets {
+    
+    UIImage *image = [UIImage imageNamed:@"icon"];
+    
+    NSLog(@"%@: %@", image, NSStringFromCGSize(image.size));
+}
+
++ (void)logImageInfoInBundle {
+    NSBundle *resourceBundle = [NSBundle bundleWithPath:[NSBundle.mainBundle pathForResource:@"FTResource" ofType:@"bundle"]];
+    
+    NSString *filepath = [resourceBundle pathForResource:@"icon_b" ofType:@"png"];
+    
+    UIImage *image = [UIImage imageWithContentsOfFile:filepath];
+    
+    NSLog(@"%@: %@ \n%@", image, NSStringFromCGSize(image.size), filepath);
+}
+
++ (void)logImageInfoInDirectory {
+    
+    NSString *filepath = [NSBundle.mainBundle pathForResource:@"icon_a" ofType:@"png"];
+    
+    UIImage *image = [UIImage imageWithContentsOfFile:filepath];
+    
+    NSLog(@"%@: %@ \n%@", image, NSStringFromCGSize(image.size), filepath);
+}
+
+
+
 @end

@@ -7,12 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TFObject : NSObject
 
++ (void)logImageInfoInAssets;
 
++ (void)logImageInfoInBundle;
+
++ (void)logImageInfoInDirectory;
 
 @end
 

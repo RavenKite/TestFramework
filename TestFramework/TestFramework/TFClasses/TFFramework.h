@@ -9,6 +9,6 @@
 #ifndef TFFramework_h
 #define TFFramework_h
 
-
+#import "TFObject.h"
 
 #endif /* TFFramework_h */
