@@ -20,12 +20,9 @@ Pod::Spec.new do |s|
   s.source_files    = 'TestFramework/TestFramework/TFClasses/**/*.{h,m}'
 
   s.resource_bundle = {
-    'TFResource' => ['TestFramework/TestFramework/TFAssets/*.*', 'TestFramework/TestFramework/TFAssets/TFAssets.xcassets', 'TestFramework/TestFramework/TFAssets/FTResource.bundle']
+    'TFAssets' => ['TestFramework/TestFramework/TFAssets.bundle/**/*.*']
   }
 
-# s.resource_bundle = {
-#    'TFResource' => ['TestFramework/TestFramework/TFAssets/*.*']
-#  }
 
   s.frameworks      = 'Foundation', 'UIKit'
 
