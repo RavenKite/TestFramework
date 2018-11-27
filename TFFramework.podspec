@@ -26,15 +26,24 @@ Pod::Spec.new do |s|
   s.frameworks      = 'Foundation', 'UIKit'
 
 
+
   s.subspec 'Core' do |c|
+
     c.source_files  = 'TestFramework/TestFramework/TFClasses/TFCore/*.{h,m}'
+
     c.frameworks    = 'Foundation'
+
   end
 
+
   s.subspec 'View' do |v|
+
     v.source_files  = 'TestFramework/TestFramework/TFClasses/TFView/*.{h,m}'
+
     v.frameworks    = 'UIKit'
+
     v.dependency 'TFFramework/Core'
+
   end
 
 
