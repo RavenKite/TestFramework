@@ -1,16 +1,19 @@
 //
-//  TFFramework.h
+//  TFCore.m
 //  TestFramework
 //
 //  Created by 李沛倬 on 2018/11/27.
 //  Copyright © 2018 peizhuo. All rights reserved.
 //
 
-#ifndef TFFramework_h
-#define TFFramework_h
-
-#import "TFObject.h"
-#import "TFView.h"
 #import "TFCore.h"
 
-#endif /* TFFramework_h */
+@implementation TFCore
+
++ (void)logTFCore {
+    TFCore *core = [[TFCore alloc] init];
+    
+    NSLog(@"%@", core);
+}
+
+@end

@@ -2,7 +2,8 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TFFramework.podspec">
+      location = "group:TFFramework.podspec"
+      assignedFileDataType = "public.ruby-script">
    </FileRef>
    <FileRef
       location = "group:TestFramework/TestFramework.xcodeproj">

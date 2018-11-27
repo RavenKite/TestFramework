@@ -1,5 +1,5 @@
 //
-//  TFObject.h
+//  TFCore.h
 //  TestFramework
 //
 //  Created by 李沛倬 on 2018/11/27.
@@ -7,17 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TFObject : NSObject
+@interface TFCore : NSObject
 
-+ (void)logImageInfoInAssets;
-
-+ (void)logImageInfoInBundle;
-
-+ (void)logTFViewAndTFCore;
++ (void)logTFCore;
 
 @end
 

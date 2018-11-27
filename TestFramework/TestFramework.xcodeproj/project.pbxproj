@@ -16,6 +16,8 @@
 		E9293B0521ABD26200518CE3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E9293B0421ABD26200518CE3 /* libz.tbd */; };
 		E9293B0A21AD175F00518CE3 /* TFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E9293B0921AD175F00518CE3 /* TFObject.m */; };
 		E93C806521AD35A800AEEAC2 /* TFAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E93C806421AD35A700AEEAC2 /* TFAssets.bundle */; };
+		E93C806A21AD487E00AEEAC2 /* TFCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C806921AD487E00AEEAC2 /* TFCore.m */; };
+		E93C806D21AD488E00AEEAC2 /* TFView.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C806C21AD488E00AEEAC2 /* TFView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,10 @@
 		E9293B0921AD175F00518CE3 /* TFObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFObject.m; sourceTree = "<group>"; };
 		E9293B0B21AD178600518CE3 /* TFFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFFramework.h; sourceTree = "<group>"; };
 		E93C806421AD35A700AEEAC2 /* TFAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TFAssets.bundle; sourceTree = "<group>"; };
+		E93C806821AD487E00AEEAC2 /* TFCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCore.h; sourceTree = "<group>"; };
+		E93C806921AD487E00AEEAC2 /* TFCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCore.m; sourceTree = "<group>"; };
+		E93C806B21AD488E00AEEAC2 /* TFView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFView.h; sourceTree = "<group>"; };
+		E93C806C21AD488E00AEEAC2 /* TFView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,28 @@
 				E9293B0B21AD178600518CE3 /* TFFramework.h */,
 				E9293B0821AD175F00518CE3 /* TFObject.h */,
 				E9293B0921AD175F00518CE3 /* TFObject.m */,
+				E93C806721AD486F00AEEAC2 /* TFView */,
+				E93C806621AD486900AEEAC2 /* TFCore */,
 			);
 			path = TFClasses;
+			sourceTree = "<group>";
+		};
+		E93C806621AD486900AEEAC2 /* TFCore */ = {
+			isa = PBXGroup;
+			children = (
+				E93C806821AD487E00AEEAC2 /* TFCore.h */,
+				E93C806921AD487E00AEEAC2 /* TFCore.m */,
+			);
+			path = TFCore;
+			sourceTree = "<group>";
+		};
+		E93C806721AD486F00AEEAC2 /* TFView */ = {
+			isa = PBXGroup;
+			children = (
+				E93C806B21AD488E00AEEAC2 /* TFView.h */,
+				E93C806C21AD488E00AEEAC2 /* TFView.m */,
+			);
+			path = TFView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +200,9 @@
 			files = (
 				E9293AF021AB9D7F00518CE3 /* ViewController.m in Sources */,
 				E9293AFB21AB9D8100518CE3 /* main.m in Sources */,
+				E93C806D21AD488E00AEEAC2 /* TFView.m in Sources */,
 				E9293B0A21AD175F00518CE3 /* TFObject.m in Sources */,
+				E93C806A21AD487E00AEEAC2 /* TFCore.m in Sources */,
 				E9293AED21AB9D7F00518CE3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

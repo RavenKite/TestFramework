@@ -7,6 +7,8 @@
 //
 
 #import "TFObject.h"
+#import "TFView.h"
+#import "TFCore.h"
 
 @implementation TFObject
 
@@ -25,6 +27,11 @@
     UIImage *image = [UIImage imageWithContentsOfFile:filepath];
     
     NSLog(@"%@: %@ \n%@", image, NSStringFromCGSize(image.size), filepath);
+}
+
++ (void)logTFViewAndTFCore {
+    [TFView logTFView];
+    [TFCore logTFCore];
 }
 
 
