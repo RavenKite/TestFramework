@@ -15,9 +15,7 @@
 		E9293AFB21AB9D8100518CE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9293AFA21AB9D8100518CE3 /* main.m */; };
 		E9293B0521ABD26200518CE3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E9293B0421ABD26200518CE3 /* libz.tbd */; };
 		E9293B0A21AD175F00518CE3 /* TFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E9293B0921AD175F00518CE3 /* TFObject.m */; };
-		E9293B0D21AD1DC900518CE3 /* TFAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9293B0C21AD1DC900518CE3 /* TFAssets.xcassets */; };
-		E9293B0F21AD1DEA00518CE3 /* FTResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9293B0E21AD1DEA00518CE3 /* FTResource.bundle */; };
-		E93C806321AD1EEA00AEEAC2 /* icon_a.png in Resources */ = {isa = PBXBuildFile; fileRef = E93C806221AD1EEA00AEEAC2 /* icon_a.png */; };
+		E93C806521AD35A800AEEAC2 /* TFAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E93C806421AD35A700AEEAC2 /* TFAssets.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +33,7 @@
 		E9293B0821AD175F00518CE3 /* TFObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFObject.h; sourceTree = "<group>"; };
 		E9293B0921AD175F00518CE3 /* TFObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFObject.m; sourceTree = "<group>"; };
 		E9293B0B21AD178600518CE3 /* TFFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFFramework.h; sourceTree = "<group>"; };
-		E9293B0C21AD1DC900518CE3 /* TFAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TFAssets.xcassets; sourceTree = "<group>"; };
-		E9293B0E21AD1DEA00518CE3 /* FTResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FTResource.bundle; sourceTree = "<group>"; };
-		E93C806221AD1EEA00AEEAC2 /* icon_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_a.png; sourceTree = "<group>"; };
+		E93C806421AD35A700AEEAC2 /* TFAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TFAssets.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +75,7 @@
 				E9293AEE21AB9D7F00518CE3 /* ViewController.h */,
 				E9293AEF21AB9D7F00518CE3 /* ViewController.m */,
 				E9293B0721AD173400518CE3 /* TFClasses */,
-				E9293B0621AD173300518CE3 /* TFAssets */,
+				E93C806421AD35A700AEEAC2 /* TFAssets.bundle */,
 				E9293AF421AB9D8100518CE3 /* Assets.xcassets */,
 				E9293AF921AB9D8100518CE3 /* Info.plist */,
 				E9293AFA21AB9D8100518CE3 /* main.m */,
@@ -93,16 +89,6 @@
 				E9293B0421ABD26200518CE3 /* libz.tbd */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E9293B0621AD173300518CE3 /* TFAssets */ = {
-			isa = PBXGroup;
-			children = (
-				E93C806221AD1EEA00AEEAC2 /* icon_a.png */,
-				E9293B0C21AD1DC900518CE3 /* TFAssets.xcassets */,
-				E9293B0E21AD1DEA00518CE3 /* FTResource.bundle */,
-			);
-			path = TFAssets;
 			sourceTree = "<group>";
 		};
 		E9293B0721AD173400518CE3 /* TFClasses */ = {
@@ -172,11 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93C806521AD35A800AEEAC2 /* TFAssets.bundle in Resources */,
 				E9293AF821AB9D8100518CE3 /* LaunchScreen.storyboard in Resources */,
 				E9293AF521AB9D8100518CE3 /* Assets.xcassets in Resources */,
-				E93C806321AD1EEA00AEEAC2 /* icon_a.png in Resources */,
-				E9293B0D21AD1DC900518CE3 /* TFAssets.xcassets in Resources */,
-				E9293B0F21AD1DEA00518CE3 /* FTResource.bundle in Resources */,
 				E9293AF321AB9D7F00518CE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

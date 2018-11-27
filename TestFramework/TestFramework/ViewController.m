@@ -22,8 +22,6 @@
     
     [TFObject logImageInfoInBundle];
     
-    [TFObject logImageInfoInDirectory];
-    
 }
 
 

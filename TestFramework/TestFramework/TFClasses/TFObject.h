@@ -17,8 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)logImageInfoInBundle;
 
-+ (void)logImageInfoInDirectory;
-
 @end
 
 NS_ASSUME_NONNULL_END
